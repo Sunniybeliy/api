@@ -1,4 +1,9 @@
+const divCH = document.createElement("div")
+const divP = document.createElement("div")
+
 const inpu = document.createElement("input")
 inpu.setAttribute( "type", "radio")
 
-console.log( inpu )
+divCH.appendChild(inpu)
+divP.appendChild(divCH)
+console.log( divP )

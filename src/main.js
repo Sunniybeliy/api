@@ -12,6 +12,8 @@ async function load() {
   }
 }
 
+console.log( sovol )
+
 const box = document.getElementById("BOX")
 const button = document.getElementById("tugadi")
 const ul = document.querySelectorAll(".ul")
