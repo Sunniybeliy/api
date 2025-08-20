@@ -80,5 +80,5 @@ button.onclick = async() => {
 
   const score = 100 * result.countOfRightAnswers / nOfQuestions
 
-  alert( `${score}%` )
+  alert( `You got ${score}% correct` )
 }
