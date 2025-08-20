@@ -5,7 +5,7 @@ await load()
 
 async function load() {
   
-  const response = await fetch ( "http://localhost:3000/questions")
+  const response = await fetch ( "https://api-backend-6gx3.onrender.com/questions")
 
   if( response.ok ){
       sovol = await response.json()
@@ -68,7 +68,7 @@ button.onclick = async() => {
     
   }
 
-  const response = await fetch( "http://localhost:3000/check", {
+  const response = await fetch( "https://api-backend-6gx3.onrender.com/check", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -80,5 +80,5 @@ button.onclick = async() => {
 
   const score = 100 * result.countOfRightAnswers / nOfQuestions
 
-  console.info( `${score}%`)
+  alert( `${score}%` )
 }

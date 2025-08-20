@@ -8,6 +8,7 @@
 
 /* BODY STYLING */
 body {
+  position: relative;
   min-height: 100vh;
   background: linear-gradient(135deg, #1e293b, #0f172a);
   display: flex;
@@ -68,4 +69,9 @@ body {
   background: linear-gradient(135deg, #2563eb, #1d4ed8);
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(29, 78, 216, 0.4);
+}
+#toAdmin{
+  position: absolute;
+  margin-top: 33rem;
+  margin-left: 76rem;
 }
